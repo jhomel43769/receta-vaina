@@ -9,9 +9,11 @@ export const Navbar: React.FC = () => {
                 <div className="flex justify-between items-center">
                     <h1 className="text-xl font-bold text-white">Delicias Caseras</h1>
                     <ul className="flex space-x-6">
+                        <li><Link href="#recetas" className="text-white hover:text-gray-800 transition-colors duration-200">Perfiles</Link></li>
                         <li><Link href="#inicio" className="text-white hover:text-gray-800 transition-colors duration-200">Inicio</Link></li>
                         <li><Link href="#reseña" className="text-white hover:text-gray-800 transition-colors duration-200">Reseña</Link></li>
                         <li><Link href="#recetas" className="text-white hover:text-gray-800 transition-colors duration-200">Recetas</Link></li>
+
                     </ul>
                 </div>
             </nav>
